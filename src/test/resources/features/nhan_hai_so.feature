@@ -10,3 +10,4 @@ Scenario: tính tích 2 số hợp lệ
 Given tèo có 2 số 4 và 5
 When tèo thực hiện nhân 2 số
 Then tèo được thông báo là 20
+//khi chạy bên cucumber sẽ tự động tìm đến file Tich2SoStepDefinition.java để thực hiện các bước Given, When, Then, và chạy luôn cả file này đi theo yêu cầu bên file này
