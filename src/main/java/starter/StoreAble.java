@@ -1,5 +1,5 @@
 package starter;
 
 public interface StoreAble {
-    boolean save();
+    boolean save(double actualResult);
 }

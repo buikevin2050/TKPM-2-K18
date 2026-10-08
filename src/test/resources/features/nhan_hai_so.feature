@@ -11,11 +11,12 @@ Given tèo có 2 số <num1> và <num2>
 When tèo thực hiện nhân 2 số
 Then tèo được thông báo là <result> <color>
 And kết quả được lưu lại <store>
+And ngày hiện tại <current_day_vn>
 
 
 Examples:
 
-| num1 | num2 | result | store  | color | reason |
-| 2    | 3    | 6      | true   | green | even   |
-| 4    | 5    | 20     | true   | green | even   |
-| 7    | 3    | 21     | true   | red   | odd    |
+current_day_vn| num1 | num2 | result | store  | color | reason |
+07/10/2026    | 2    | 3    | 6      | true   | green | even   |
+07/10/2026    | 4    | 5    | 20     | true   | green | even   |
+07/10/2026    | 7    | 3    | 21     | true   | red   | odd    |
